@@ -9,8 +9,8 @@ import { GraduationCap, ArrowLeft } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
 const institutions = [
-  "College of Engineering and Management, Kolaghat"
-  "Maulana Abul Kalam Azad University of Technology"
+  "College of Engineering and Management, Kolaghat",
+  "Maulana Abul Kalam Azad University of Technology",
   "Others"
 ];
 
