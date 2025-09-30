@@ -9,16 +9,9 @@ import { GraduationCap, ArrowLeft } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
 const institutions = [
-  "Harvard University",
-  "Stanford University", 
-  "MIT",
-  "University of California Berkeley",
-  "Yale University",
-  "Princeton University",
-  "Columbia University",
-  "University of Chicago",
-  "University of Pennsylvania",
-  "Duke University"
+  "College of Engineering and Management, Kolaghat"
+  "Maulana Abul Kalam Azad University of Technology"
+  "Others"
 ];
 
 export default function Auth() {
@@ -130,7 +123,6 @@ export default function Auth() {
                       <Label htmlFor="firstName">First Name</Label>
                       <Input
                         id="firstName"
-                        placeholder="John"
                         required
                         className="border-border focus:border-primary"
                       />
@@ -139,7 +131,6 @@ export default function Auth() {
                       <Label htmlFor="lastName">Last Name</Label>
                       <Input
                         id="lastName"
-                        placeholder="Doe"
                         required
                         className="border-border focus:border-primary"
                       />
@@ -150,7 +141,6 @@ export default function Auth() {
                     <Input
                       id="email-signup"
                       type="email"
-                      placeholder="john.doe@university.edu"
                       required
                       className="border-border focus:border-primary"
                     />
